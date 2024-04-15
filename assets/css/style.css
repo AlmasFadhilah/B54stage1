@@ -1,0 +1,48 @@
+
+.home1 {
+    margin: 400px;
+    margin-top: 40px;
+}
+.home_button1 {
+    background-color: rgb(46, 43, 43);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: medium;
+    padding: 9px 25px;
+    color: white;
+
+    margin-bottom: 20px;
+}
+.home_icon {
+    margin-top: 40px;
+    margin-left: 40%;
+}
+.home_table {
+    color: black; 
+    text-align: center;
+    width: 100%;
+}
+.home1_card {
+    margin: 30%;
+    margin-top: 20px;
+    width: 250px;
+    color: grey;
+    box-shadow: 0 4px 10px 0;
+    border: 30px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.image-card {
+    width: 250px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
