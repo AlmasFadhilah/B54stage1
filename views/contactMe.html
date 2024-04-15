@@ -1,0 +1,70 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <ul>
+                <img src="../assets/image/logo.png" alt="logoImage">
+                <li class="active collapse-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="collapse-item">
+                    <a href="index.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right collapse-item">
+            <a href="contactMe.html">Contact Me</a>
+        </div>
+
+        <div>
+            <button style="cursor: pointer; border: none; background-color: transparent;"
+            onclick="openHamburger()">
+            <div class="right hamburger-bar">
+                <i class="fa-solid fa-bars fe-xl"></i>
+            </div>
+            </button>
+        </div>
+    </nav>
+    <!-- END -->
+
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <select id="subject">
+                <option hidden>select option</option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Message</label>
+            <textarea name="" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
