@@ -11,54 +11,92 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="home1">
-      <div>
-        <h1>Hi Welcome to my hut</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique
-          purus orci libero egestas ut. Augue suspendisse blandit lorem massa
-          ipsum, urna, egestas mi, lacinia. Odio nam purus consectetur euismod
-          congue leo quisque. Turpis amet sollicitudin nunc non in lectus dolor
-          amet. Amet ullamcorper faucibus tincidunt accumsan ac adipiscing arcu.
-          Donec tristique at proin maecenas. Ante elit et iaculis ac sit.
-        </p>
-        <br />
-        <div>
-          <button class="home_button1">Contact</button> <br />
-          <label>Download CV</label><i class="fa-solid fa-download"></i>
-          <br />
-          <div class="home_icon">
-            <i
-              class="fa-brands fa-linkedin-in fa-xl"
-              style="border-radius: 30%"
-            ></i>
-            <i
-              class="fa-brands fa-instagram fa-xl"
-              style="margin-left: 10px"
-            ></i>
-            <i
-              class="fa-brands fa-facebook fa-xl"
-              style="margin-left: 10px"
-            ></i>
-            <i class="fa-brands fa-twitter fa-xl" style="margin-left: 10px"></i>
-          </div>
-        </div>
+    <nav>
+      <div class="left">
+        <ul>
+          <img src="../assets/image/logo.png" alt="logoImage" />
+          <li class="active collapse-item">
+            <a href="./home.html">Home</a>
+          </li>
+          <li class="collapse-item">
+            <a href="./home.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right collapse-item">
+        <a href="./contactMe.html">Contact Me</a>
       </div>
 
-      <div class="home1_card">
-        <img class="image-card" src="../assets/image/almas.jpg" alt="" />
-        <table class="home_table">
-          <tr>
-            <th style="font-size: large; font-style: bold">
-              M Almas Fadhilah T
-            </th>
-          </tr>
-          <tr>
-            <th style="font-size: medium; font-weight: 200">
-              Fullstack Developer
-            </th>
-          </tr>
-        </table>
+      <div>
+        <button
+          style="cursor: pointer; border: none; background-color: transparent"
+          onclick="openHamburger()"
+        >
+          <div class="right hamburger-bar">
+            <i class="fa-solid fa-bars fe-xl"></i>
+          </div>
+        </button>
+      </div>
+    </nav>
+
+    <div style="padding: 20px 170px; background-color: rgb(175, 178, 184)">
+      <div class="home1">
+        <div class="home1_descrip">
+          <h1>Hi Welcome to my hut</h1>
+          <p style="text-align: justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            tristique purus orci libero egestas ut. Augue suspendisse blandit
+            lorem massa ipsum, urna, egestas mi, lacinia. Odio nam purus
+            consectetur euismod congue leo quisque. Turpis amet sollicitudin
+            nunc non in lectus dolor amet. Amet ullamcorper faucibus tincidunt
+            accumsan ac adipiscing arcu. Donec tristique at proin maecenas. Ante
+            elit et iaculis ac sit.
+          </p>
+          <br />
+          <div>
+            <button class="home_button1">Contact</button> <br />
+            <label>Download CV</label><i class="fa-solid fa-download"></i>
+            <br />
+            <div class="home_icon">
+              <i
+                class="fa-brands fa-linkedin-in fa-xl"
+                style="border-radius: 30%"
+              ></i>
+              <i
+                class="fa-brands fa-instagram fa-xl"
+                style="margin-left: 10px"
+              ></i>
+              <i
+                class="fa-brands fa-facebook fa-xl"
+                style="margin-left: 10px"
+              ></i>
+              <i
+                class="fa-brands fa-twitter fa-xl"
+                style="margin-left: 10px"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="home1_card">
+          <img class="home_img" src="../assets/image/almas.jpg" alt="" />
+          <table class="home_table">
+            <tr>
+              <th style="font-size: large; font-style: bold">
+                M Almas Fadhilah T
+              </th>
+            </tr>
+            <tr>
+              <th style="font-size: medium; font-weight: 200">
+                Fullstack Developer
+              </th>
+            </tr>
+          </table>
+          <!-- <a href="https://api.whatsapp.com/send?phone=6283821185205"
+            >Send Message</a
+          > -->
+          <!-- <a href="https://wa.me/6283821185205">click</a> -->
+        </div>
       </div>
     </div>
   </body>

@@ -1,7 +1,71 @@
+body {
+    margin: 0;
+    background-color: rgb(175, 178, 184)
+}
 
+/* NAVBAR */
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    padding: 0 80px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+nav .left ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav .left ul img{
+
+margin-right: 40%;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav .left ul .active a{
+    font-weight: bold;
+    color: black;
+}
+
+nav .right a{
+    background-color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius:  20px;
+    color: white;
+    position: absolute; 
+    right: 40px;
+    top: 20px;
+}
+
+nav .left ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+/* NAF END */
+
+
+/* halaman home */
 .home1 {
-    margin: 400px;
-    margin-top: 40px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.home1_descrip {
+    margin: 20px 50px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 0;
 }
 .home_button1 {
     background-color: rgb(46, 43, 43);
@@ -17,8 +81,7 @@
     margin-bottom: 20px;
 }
 .home_icon {
-    margin-top: 40px;
-    margin-left: 40%;
+    margin: 40px auto;
 }
 .home_table {
     color: black; 
@@ -26,23 +89,58 @@
     width: 100%;
 }
 .home1_card {
-    margin: 30%;
+    margin: 100px;
+    margin-left: 10px;
     margin-top: 20px;
-    width: 250px;
-    color: grey;
-    box-shadow: 0 4px 10px 0;
-    border: 30px 20px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    width: 240px;
+    color: grey; box-shadow: 0 4px 10px 0; border: 30px 20px;
 }
-.image-card {
-    width: 250px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.home_img {
+    width: 100%;
 }
+/* end */
+
+/* contactMe */
+form {
+    width: 350px;
+    margin: 10% auto;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form div button {
+    background-color: black;
+    padding: 8px 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+/* FORM contactMe.html END */
