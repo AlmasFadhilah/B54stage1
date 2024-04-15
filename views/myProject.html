@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/77b392a698.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="left">
+        <ul>
+          <img src="../assets/image/logo.png" alt="logoImage" />
+          <li class="active collapse-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="collapse-item">
+            <a href="index.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right collapse-item">
+        <a href="contactMe.html">Contact Me</a>
+      </div>
+    </nav>
+    <!-- END -->
+
+    <div>
+      <div class="background">
+        <h1 class="title_h1">ADD MY PROJECT</h1>
+        <form class="box form1" onsubmit="addBlog(event)">
+          <div>
+            <label for="inputName">Project Name</label> <br />
+            <input class="input1" id="inputName" type="text" />
+          </div>
+          <div class="input2">
+            <div>
+              <label for="inputDate">Start Date</label> <br />
+              <input class="inputflex" id="inputDate" type="date" />
+            </div>
+            <div style="margin-left: 2px">
+              <label for="inputEdate">End Date</label><br />
+              <input class="inputflex" id="inputEdate" type="date" />
+            </div>
+          </div>
+          <div style="margin-top: 20px">
+            <label for="inputDescription">Description</label><br />
+            <textarea id="inputDescription" cols="60" rows="5"></textarea>
+          </div>
+
+          <div style="margin-top: 20px">
+            <label>Tecnologies</label>
+            <div style="display: flex">
+              <div>
+                <input
+                  class="input4"
+                  name="technology"
+                  id="nodeJs"
+                  type="checkbox"
+                  value="fa-brands fa-node fa-2xl"
+                />
+                <label>Node JS</label>
+              </div>
+              <div>
+                <input
+                  class="input4"
+                  name="technology"
+                  id="nextJs"
+                  type="checkbox"
+                  value="fa-brands fa-golang  fa-2xl"
+                />
+                <label>Next JS</label>
+              </div>
+            </div>
+            <div style="display: flex">
+              <div>
+                <input
+                  class="input4"
+                  name="technology"
+                  id="reactJs"
+                  type="checkbox"
+                  value="fa-brands fa-react  fa-2xl"
+                />
+                <label>React JS</label>
+              </div>
+              <div>
+                <input
+                  class="input4"
+                  name="technology"
+                  id="typeScript"
+                  type="checkbox"
+                  value="fa-brands fa-js  fa-2xl"
+                />
+                <label>TypeScript</label>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label for="image">Upload Images</label>
+            <input class="input3" type="file" id="input-image" />
+          </div>
+
+          <div style="margin-top: 15px">
+            <button class="botton1">Submit</button>
+          </div>
+        </form>
+        <hr class="line" />
+      </div>
+    </div>
+
+    <div style="height: 500px">
+      <h1 style="text-align: center">MY PROJECT</h1>
+      <br />
+      <div id="contents" class="detail-project"></div>
+      <br />
+    </div>
+
+    <script src="../assets/js/blog.js"></script>
+  </body>
+</html>
